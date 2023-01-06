@@ -1,0 +1,5 @@
+
+open ssh:
+- nano /etc/ssh/sshd_config
+- uncomment Port 22
+- service ssh restart
